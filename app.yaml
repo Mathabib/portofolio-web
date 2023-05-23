@@ -1,0 +1,8 @@
+runtime: python39
+handlers:
+- url: /
+  static_files: websiteku.html
+  upload: websiteku.html
+- url: /websiteku.css
+  static_files: websiteku.css
+  upload: websiteku.css
