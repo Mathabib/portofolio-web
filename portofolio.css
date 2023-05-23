@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300&display=swap');
+
+body{
+    font-family: 'Poppins';
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+justify-content: center;
+width: 100%;
+display: flex;
+background-color: #3F979B;;
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+}
+
+.gambar{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+.gambar img{
+display: flex;
+left: 100px;
+}
+
+.tulisan{
+    width: 50%;
+    
+}
+
+.nama-status{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.nama-status h1{
+    margin: 0px;
+    padding: 0px;
+}
+.nama-status h3{
+    margin: 0px;
+    padding: 0px;
+}
+
+.sosialmedia-container{
+    display: flex;
+    gap:20px
+}
+.sosialmedia{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.logo{
+    font-size: 40px;
+    color: #3F979B;
+}
